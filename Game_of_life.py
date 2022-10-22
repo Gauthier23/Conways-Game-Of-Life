@@ -137,8 +137,8 @@ can.bind("<Button-1>", click_gauche)
 can.bind("<Button-3>", click_droit)
 b2 = Button(fen, text='Lancer', command = withtime )
 b3 = Button(fen, text='Stop', command = stop)
-b2.pack(side = TOP, padx=5, pady=5)
-b3.pack(side = TOP, padx=5, pady=5)
+b2.pack(side = LEFT, padx=5, pady=5)
+b3.pack(side = LEFT, padx=5, pady=5)
 
 #####-----Préparation interface de base-----#####
 dam()

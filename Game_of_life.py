@@ -88,7 +88,6 @@ def calculer():
 
 def withtime():
     global flag
-    #print(dico)
     flag = 1
     update_calculs()
     
